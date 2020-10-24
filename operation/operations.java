@@ -16,18 +16,22 @@ class Operations{
         this.result = num_1 + num_2;
     }
 
-    public double getResult(){
-        return result;
-    }
-
     public void sub(){
         this.result = num_1 - num_2;
     }
 
-    public double getResultSub(){
-        return result;
+    public void fatorial(int num){
+        int fat;
+
+        for (int i = num; i = 1 ; --i ){
+            fat *= i;
+        }
+
+        result = fat;
     }
 
-    
-
+     public double getResult(){
+        return result;
+    }
+      
 }
